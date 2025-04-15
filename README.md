@@ -37,7 +37,11 @@ paths if it is needed instead of using pwmconfig.
 
 Put `update_fancontrol.py` in `/usr/bin/update_fancontrol.py`
 
+- From this folder: `sudo cp update_fancontrol.py /usr/bin/update_fancontrol.py`
+
 Put `update_fancontrol.service` in `/etc/systemd/system/update_fancontrol.service`
+
+- From this folder: `sudo cp update_fancontrol.service /etc/systemd/system/update_fancontrol.service`
 
 Run `sudo systemctl enable --now update_fancontrol`
 
